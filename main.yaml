@@ -1,0 +1,486 @@
+
+- V1 route MSDTEXR 1.6
+- Route use Amiibo
+- Great Plateau:
+    - SoR clip:
+       icon: location
+       color: white
+       notes: After cutscene, hold ZL and hop left to exit
+       comment: Front entrance
+       coord: [-1066.75,1813.25]
+    - _Equipment::Weapon<Torch>:
+       coord: [-939.625,1876.375]
+    - _Equipment::Weapon<Boko Spear>:
+        coord: [-942.9375,1959.75]
+    - _Equipment::Shield<Pot Lid>:
+        coord: [-952.875,1960.3125]
+    - _Material<6 Pepper>:
+        comment: 2 are mendatory for IST
+        coord: [-962.6875,1955.75]
+    - _Material<3 Shroom>:
+        comment: Don't eat it
+        coord: [-959.1875,1964.6875]
+    - Talk to .npc(Zelda):
+        icon: zelda
+        coord: [-902.5625,2000.8125]
+    - _Equipment::Bow<Traveler's Bow>:
+        coord: [-832.125,1963.0625]
+        notes: .link([Shield clip] https://www.youtube.com/watch?v=oklKNwEPvYY)
+    - _Shrine::JaBaij:
+        comment: BLSS to it
+        notes: .link([Gamer Windbomb] https://www.youtube.com/shorts/mkCRV-NXqkw)
+    - _Tower::GreatPlateau:
+       notes: Blss to tower
+    - _Shrine::OmanAu:
+       notes: After talk papi blss to OmanAu and take ruby
+    - _Shrine::OwaDaim:
+        notes: Takes torch before tree windbomb
+        movements:
+        - [-657.25,1492.625]
+        - [-827.75,2255.75]
+        - [-925.0625,2320.125]
+    - _Shrine::KehNamut:
+        movements:
+        - [-978.25,2286.375]
+        - [-1435.4375,1990.625]
+    - Paraglider:
+        coord: [-811.6875,1966.8125]
+        icon: king
+- Stuff for IST:
+    - _Tower::Central:
+       color: blue
+    - _Equipment::Bow<Royal Bow>:
+       coord: [-252.19, 210.48, -741.07]
+    - _Equipment::Bow<Ancient's Arrows CHest>:
+        coord: [ -254.00, 209.67, -742.37]
+    - _Equipment::Weapon<ThunderBlade>:
+       coord: [-254.31, 210.61, -759.24]
+    - _Tower::Ridgeland:
+       notes: Blls
+    - _Material<Fairy's>:
+       coord: [-3531.93, 294.93, -758.80]
+    - _Material<Mighty Thistle>:
+       coord: [-3534.30, 292.78, -764.30]
+       notes: Takes all mighty
+    - _Material<Endura Carrot>:
+       coord: [-3562.49, 292.65, -727.76]
+    - _Material<Apple>:
+       coord: [-3580.04, 299.62, -776.40]
+    - _Tower::Tabantha
+    - _Equipment::Weapon<Soldier's Claymore>:
+       coord: [-3554.00, 330.06, -1043.05]
+       notes: Blls to Claymore
+    - _Equipment::Weapon<Royal Claymore>:
+       coord: [-3561,-1042]
+    - Start Quest Medho:
+       coord: [-3638.5,-1827]
+       icon: zelda
+       notes: Talk Kai
+    - _Equipment::Sheild<Pot Lid>:
+       coord: [-3588.54, 298.00, -1809.50]
+       notes: Drop pot lid and take new pot lid
+    - Endura Food/Attck up:
+       icon: endura_food
+       coord: [-3595.5,-1785.5]
+       notes: Cook 1 endura carrot and 2 attack up w/ Mightyth for ist
+    - IST:
+       icon: ist
+       coord: [-3615.25,-1767.25]
+       notes: .link([IST Instruction]https://ist.pistonite.app?v4=H4sIAAAAAAAAA4WRwU7DMAyG73mK_wWQyIALEk8y7eA2Xhvh1cFxV_XtUVqmjQPiZvt37O93BnZUIWcMkhMb3qDW1YAlSxqMeapHPp-59w-e0mx0elBwk0Du1H_O5R81HECl4BWFCw6oo-EVlzyMvvrYCll48mJ56nHAmbKtiLC5W0NEUT82go_4fAoRbnRlYWsNupIgPoPMdKl4AVGIqIWpyT7OU2LrhBIjoqqkzNYLrbe3LQ78Neey550uIZk2xp30xhiqmuNCzpZJKsJ7vcwDRpWEeHcSfzmJm9G4jYrtAKGyCEjkPuk4sqTTI8MDU1EPJfefT_OdyMdcXThUuvJvitvZ9nUPTNsd_15NvtXPqmk339ZuQSt3utSQpj1ZmIpONczTDrjnwViUUqijqjen7TewE_5I35V28rZvAgAA)
+- Piaf 1:
+  - Sell ruby:
+     color: gold
+     icon: fairy
+     coord: [-3647.48, 289.88, -1822.09]
+     notes: Sell ​all ruby
+  - _Shrine::ShaWarvo: 
+     notes: WindBomb and activate shrine for SCW
+  - SCW to Noe Rajee:
+     coord: [-3804.25,-2262.375]
+     icon: SCW
+  - _Shrine::NoeRajee:
+     notes: WindBomb 1/4 and finish shrine
+  - _Equipment::Bow<Swallow Bow>:
+     notes: Paraglider to Bow and Talk Teba
+     coord: [-3793.13, 268.29, -2324.26]
+  - Teba: 
+     icon: npc
+     coord: [-3802.9375,-2312.75]
+  - _Equipment::Bow<Falcon Bow>:
+     notes: Take Falcon bow and equip
+     coord: [ -3800.68, 267.38, -2316.64]
+  - .boss(Windblight):
+     coord: [-3850.5,-2278.5]
+     icon: ganon
+     notes: Take Ice Arrow
+  - .!!(Revali's Gale):
+      icon: medoh-done
+      movements: 
+      - to : [-3587,-1802.125]
+        warp: true
+  - _Equipment::Bow<Great Eagle Bow>:
+     notes: Talk Kai and take chest
+     coord: [-3630.37, 323.57, -1828.17]
+  - _Warp::Shrine::KehNamut
+- Gerudo 1:
+  - _Shrine::DaqoChisay:
+     notes: BLLS and activate shrine
+     color: steelblue
+  - Talk to Benja:
+     icon: npc
+     coord: [-3804.64, 149.50, 2818.36]
+  - Talk Vilia:
+     icon: npc
+     coord: [-3259.27, 163.93, 2611.54]
+  - _Equipment::Bow<30 Fire Arrows>:
+     coord: [-3855.84, 149.24, 2912.64]
+  - _Equipment::Bow<20 Ice Arrows>:
+     coord: [-3856.96, 149.24, 2913.75]
+     notes: Buy 20 arrows
+  - _Equipment::Bow<30 Shock Arrows>:
+      notes: Buy 30 Shock Arrows
+      coord: [-3858.52, 149.24, 2914.98]
+  - Talk to Riju:
+     coord: [-3891.37, 157.48, 2968.35]
+     icon: npc
+  - Talk to Teake:
+     icon: npc
+     coord: [-3922.65, 151.32, 2940.86]
+  - _Tower::Gerudo:
+     movements:
+      - [-4132.90, 159.34, 2598.46]
+      - [-3665.9375,1829]
+     notes: Btb to Tower and Windbomb to tower
+  - _Equipment::Weapon<DragonBone Moblin Club>:
+     movements:
+      - [-3778.90, 326.03, 1855.20]
+      - [ -3113.38, 546.66, 1332.69]
+     notes: Btb and take sheild and weapon and wood
+  - _Equipment::Shield<Knight Sheild>:
+     coord: [-3115.65, 546.45, 1329.38]
+  - _Shrine::KuhTakkar:
+     movements:
+      - [-3083.875,1222]
+     notes: Before windbomb to shrine smuggle torch for Kuh Takkar
+  - Setup iSCW:
+     notes: Setup Storage
+     icon: SCW
+  - _Shrine::KihiroMoh:
+     notes: Use Storage w/ camp fire and windbomb in shrine
+  - Sheild CLip Yiga HideOut:
+     icon: yigahideout
+     coord: [-3510.46, 442.51, 1297.31]
+  - _Equipment::Bow<Duplex Bow>:
+     notes: After return in bounce take Duplex bow
+  - Master Kogha:
+     coord: [-3465.60, 440.72, 1325.95]
+     icon: kogha
+  - Thunder Helmet:
+     coord: [-3451.00, 440.69, 1331.50]
+     icon: treasure
+     notes: Take Helmet
+  - _Warp::Shrine::DaqoChisay
+  - Talk Riju:
+     icon: npc
+     coord: [-3867,2946.25]
+     notes: WindBomb to riju
+     comment: If you need to buy more arrows, go buy some and then sell topaz now
+  - WindBomb to riju:
+     notes: Windbomb and try SL and equip Duplex Bow
+     coord: [ -3420.68, 189.82, 3118.97]
+     icon: windbomb
+  - Vah Naboris:
+      icon: naboris-enter
+      coord: [-2754.62, 112.53, 3749.44]
+      comment: .gale(GALE 1-3)
+  - .boss(Thunderblight):
+      icon: ganon
+  - .!!(Urbosa's Fury):
+      icon: naboris-done
+      movements:
+          - to: [-3772,2851]
+            warp: true
+  - _Warp::Shrine::KuhTakkar
+- Great Plateau Ex:
+  - Setup SCW to Etsu Korima:
+     icon: SCW
+  - Skew for Etsu Korima:
+     notes: Take Skew
+     coord: [-3128.3181144350183,1292.8579713912459]
+  - _Shrine::EtsuKorima:
+     movements:
+       - [-3140.8862288700366,1282.7159427824909]
+       - [-3185.5449154801463,1075.8637711299634]
+       - [-3166.5449154801463,914.8637711299634]
+       - [-2639,1108]
+       - [-1208.43, 250.47, 2080.61]
+       - [-1216.125,2111.3125]
+  - _Warp::Shrine::KuhTakkar
+  - Setup iSCW to Ruvo Korbah:
+     icon: SCW
+     notes: Sheild clip 
+     comment: Use Storage w/ ITB
+  - _Shrine::RuvoKorbah:
+     movements:
+      - [-3140.8862288700366,1282.7159427824909]
+      - [-3185.5449154801463,1075.8637711299634]
+      - [-3166.5449154801463,914.8637711299634]
+      - [-815.125,2151.4375]
+      - [-833.6875,2145.25]
+  - _Warp::Shrine::KuhTakkar
+  - Setupo iSCW to Yowaka Ita:
+     icon: SCW
+  - _Shrine::YowakaIta:
+     movements:
+      - [-3140.8862288700366,1282.7159427824909]
+      - [-3185.5449154801463,1075.8637711299634]
+      - [-3166.5449154801463,914.8637711299634]
+      - [-960.75,1625]
+      - [-941.25,1671.75]
+     notes: Use ITB and Scope Clip in shrine
+  - _Warp::Shrine::KuhTakkar
+  - _Shrine::RohtaChigah:
+     movements:
+      - [-3140.8862288700366,1282.7159427824909]
+      - [-3185.5449154801463,1075.8637711299634]
+      - [-3166.5449154801463,914.8637711299634]
+      - [-518,1799.5]
+     notes: Use ITB 
+- Dueling Zone:
+  - _Shrine::BoshKala:
+     notes: Windbomb to shrine
+  - _Tower::DuelingPeaks:
+     notes: Windbomb to Tower
+  - _Shrine::ReeDahee:
+     notes: WindBomb
+  - Setup SCW to Shee Vaneer:
+     icon: SCW
+  - _Shrine::SheeVaneer:
+     note: Use storage in water looking at the shrine
+  - _Shrine::SheeVenath:
+     notes: Windbomb to shrine
+  - _Tower::Hateno:
+     notes: BLLS to Tower
+  - _Shrine::MyahmAgana:
+     notes: BLLS to shrine
+- Zora 1:
+  - _Warp::Beast::Naboris:
+     color: yellow
+  - _Tower::Wasteland:
+     notes: WindBomb
+  - BLLS to King Dorephan:
+     movements:
+      - [2996,-8]
+      - [3338.31, 268.90, -551.60]
+     icon: npc
+  - Talk Muzu:
+     coord: [3303.95, 256.50, -511.54]
+     icon: npc
+  - Talk Sidon:
+     icon: npc
+     coord: [3598.55, 316.00, -330.31]
+     notes: After Memory WindBomb to Sidon
+  - .boss(Waterblight):
+      icon: calamity
+      notes: .rune(Stasis) → 2 GEB (shock arrow) + 1 OmeGEB (AA), all headshots
+      hide-icon-on-map: true
+      coord: [3664,-192.5]
+  - Mipha's Grace:
+      icon: ruta-done
+      movements:
+          - to: [3283.5,-431]
+            warp: true
+- Goron 1:
+  - _Equipment::Weapon<Ceremonial Trident>:
+     coord: [3223.90, 208.54, -602.10]
+  - _Shrine::DagahKeek:
+     color: purple
+     notes: Windbomb and attack in air for activate shrine 
+  - _Tower::Eldin:
+     notes: Wb and BLLS
+  - Talk Bludo:
+     icon: npc
+     movements:
+      - [1534,-1903]
+      - [1520,-2378]
+      - [1713.95, 498.05, -2446.92]
+  - _Shrine::ShaeMosah
+  - Save Yunobo:
+     icon: npc
+     movements:
+      - [1552,-2897]
+      - [1630.68, 560.52, -2941.37]
+     notes: Windbomb to canon
+  - Talk Bludo:
+     coord: [1713.95, 498.05, -2446.92]
+     notes: Windbobm to Bludo
+     icon: npc
+  - _Shrine::DaqaKoh:
+     notes: Windbomb to shrine 
+  - Vah Rudania:
+      icon: tots
+      hide-icon-on-map: true
+      comment: .gale(GALE 1)
+      coord: [2479.21, 987.63, -2544.28]
+
+  - .boss(Fireblight):
+      icon: calamity
+      hide-icon-on-map: true
+
+  - Daruk's Protection:
+      icon: rudania-done
+      movements:
+          - to: [1572.5,-2422.5]
+            warp: true
+- Gerudo 3:
+  - _Warp::Shrine::KuhTakkar:
+     color: orange
+  - Setup iSCW:
+     icon: SCW
+     notes: Setup Storage for Takama Shiri
+     coord: [-3084.5,1221.5]
+  - _Shrine::TakamaShiri:
+     notes: Use Storage w/ instant text box and instant windbomb and finish on foot shrine
+  - _Shrine::KemaZoos:
+     notes: WindBomb North West to shrine
+  - Molduga Ex:
+     icon: molduga
+     movements:
+      - [-3692,2776]
+      - [-2464,3733]
+     notes: BLLS to Molduga
+  - _Shrine::KeiveTala:
+     notes: Finish Shrine .link([Shrine 1h32:44]https://www.youtube.com/watch?v=U90aR9z7Wpk)
+  - _Warp::Beast::Naboris
+  - .boss(Thunderblight):
+      icon: ganon
+  - _Tower::Lake:
+     notes: After refight BLLS to tower
+  - _Tower::Faron:
+     notes: BLLS to Faron and mid air
+- Piaf 2:
+  - _Warp::Shrine::KuhTakkar:
+     color: red
+  - Setup iSCW:
+     icon: SCW
+  - _Shrine::ShiraGomar:
+     movements: 
+      - [-3140.8862288700366,1282.7159427824909]
+      - [-3185.5449154801463,1075.8637711299634]
+      - [-3166.5449154801463,914.8637711299634]
+      - [-2377.25,-1383]
+     notes: Blls to Shira Gomar and use storage w/ Jelly chuchu or scans fish
+  - BtB:
+     movements:
+      - [-2345.46, 392.26, -1900.39]
+      - [-2814,-2836]
+     notes: Windbobm to moblin and BtB
+     comment: .link([BtB at 3h21]https://www.twitch.tv/videos/1067492530)
+     icon: windbomb
+  - _Shrine::KiahToza:
+     notes: Slide and .link([Clip w/ camera at 3h24]https://www.twitch.tv/videos/1067492530)
+  - _Shrine::RokUwog
+  - _Warp::Beast::Medoh
+  - .boss(Windblight):
+     icon: ganon
+- Zora 2:
+  - _Warp::Shrine::DagahKeek:
+     color: chocolate
+  - Setup SCW:
+     coord: [3149.5,-415]
+     icon: SCW
+     notes: Blss to Terminal DLC and Setup Storage
+  - _Shrine::SatoKoda:
+     movements:
+      - [3010,-421]
+      - [3135.5,-754.5]
+      - [3102.75,-832.5]
+     notes: Climb waterfall and windbobm to setup for use storage w/ wood 
+     comment: .link([WindBomb at 3h25]https://www.twitch.tv/videos/1067492530)
+  - Setup SCW:
+     icon: SCW
+     notes: Kill 4 gardians and take storage
+  - _Shrine::MahEliya:
+     movements:
+      - [3754,-626.5]
+      - [3761,-643.5]
+     notes: WindBomb to shrine and use wood to use storage
+     comment: Stasis Launch 
+  - _Tower::Akkala:
+     notes: BLLS to Tower
+  - _Shrine::ZeKasho
+  - _Shrine::DahHesho
+  - _Shrine::KahMael 
+  - _Shrine::KeeDafunia:
+     comment: WindBomb
+  - _Warp::Beast::Ruta
+  - .boss(WaterBlight):
+     icon: ganon
+- Goron 2:
+  - _Warp::Shrine::SatoKoda:
+     color: black
+  - Setup SCW:
+     icon: SCW
+  - _Shrine::SharoLun:
+     movements:
+      - [3062,-2034]
+      - [2934,-2415]
+     notes: Use storage w/ fire camp
+     comment: Blls and Windbomb in shrine
+  - _Warp::Shrine::DaqaKoh
+  - _Shrine::RinuHonika:
+     notes: .link([Windbomb at 3h44]https://www.twitch.tv/videos/1067492530)
+  - Setup SCW:
+     icon: SCW
+  - SCW:
+     notes: Windbomb to shrine and take ores for use storage
+     icon: SCW
+     movements:
+      - [1822,-2654]
+      - [1992,-3072]
+      - [2050.14, 544.55, -3227.71]
+  - _Shrine::KamiaOmuna:
+     notes: Windbomb 
+  - _Warp::Beast::Rudania
+  - .boss(Fireblight):
+      icon: calamity
+      hide-icon-on-map: true
+- Master Sword:
+  - _Tower::Woodland:
+     notes: BLLS
+  - Goddess Statue:
+     movements:
+      - [791.1189438014762,-1570.7498743807018]
+      - [415.74, 258.73, -2179.85]
+     icon: goddess
+     notes: Turn orbs to Hearts and 1 stamina
+  - Master Sword:
+     coord: [431.66, 250.53, -2111.00]
+- Final Dungeon:
+  - _Warp::Shrine::KehNamut:
+     color: greenyellow
+  - Wb to SoR and Clip:
+     movements: 
+      - [-1061,1825.5]
+      - [-1120.19, 238.58, 1907.02]
+     icon: windbomb
+  - Clip for skip Dungeon:
+     notes: .link([Skip dungeon at 4h15]https://www.twitch.tv/videos/1067492530)
+     icon: windbomb
+  - Maz Koshia:
+     notes: Fight Maz Koshia
+     icon: mazkoshia
+- Ganon:
+  - Blls to Castle:
+     movements: 
+      - [-1054,1814]
+      - [-258,-1029]
+     icon: windbomb
+     color: aquamarine
+  - .boss(Ganon):
+     coord: [-254.00, 191.01, -1061.37]
+     icon: ganon
+
+     notes: Use Urbosa's Fury and GEB w/ AA
+
+
